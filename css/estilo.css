@@ -1,0 +1,724 @@
+
+
+html body{
+    height: 100vh; /*Decimos que el html y el body tenga el 100% de altura de la pagina*/ 
+    margin: 0; /*Margen 0 por defecto en toda la pagina*/
+    padding: 0; /*Padding 0 por defecto en toda la pagina*/
+    font-weight: 15;
+}
+
+body{
+    font-size: 10pt; /*Medida 10pt por defecto en el body*/
+    font-family: 'Source Sans Pro', Arial, sans-serif;/*Tipo de fuente en el body*/
+    color: #676d79;/*Color de la letra por defecto en la pagina*/
+    font-family: "Open Sans", sans-serif;/*Tipo de fuente en el body*/
+}
+
+#principal{
+    min-height: 100vh;
+    width: 100%;/*Ancho de 100%*/
+    display: flex;/*Poner en el div principal todo al lado*/
+}
+
+
+h1{
+    font-size: 3.5em;/*Tamaño de la fuente*/
+}
+
+
+#izquierda{
+    width: 40em;/*Medida del div izquierdo*/
+    height: 100%;/*Altura del 100%*/
+    background-color: #F5F6F7;/*Color de fondo del div izquierdo*/
+}
+
+#derecha{
+   width: 95%;/*Medida del ancho de derecha*/
+
+}
+
+#buscador{
+    height: 30%;/*Altura del buscador*/
+    margin-top: 15px;/*Margen de arriba*/
+    margin-left: 5%;/*Margen de lz izquierda*/
+    margin-right: 5%;/*Margen de lz izquierda*/
+}
+
+
+#menu{
+    height: 40%;/*Altura del menu*/ 
+    margin-top: 15px;/*Margen de arriba*/
+    margin-left: 5%;/*Margen de lz izquierda*/
+    margin-right: 5%;/*Margen de lz izquierda*/
+
+}
+
+#contenido{
+    margin: 15px 15px 15px 15px;/*Margen superior, izquierdo, derecha, y abajo del div contenido*/
+    height: 80%;/*Altura del div contenido*/
+    width: 95%;/*Ancho del div contenido*/
+}
+
+
+#titulomenu{
+color: #3d4449;/*Color del titulo del menu*/
+font-family: "Roboto Slab", serif;/*Fuente del titulo menu*/
+font-weight: 150;/*Grosor de la letra*/
+line-height: 1.5;/*Espaciado*/
+font-size: 30px;/*Tamaño de la fuente*/
+display: inline-block;
+border-bottom: solid 3px #f56a6a;/*Border inferior solido de 3 pixeles y de color rojo*/
+margin-left: 15px;/*Color rojo*/
+
+
+}
+
+
+#menu{
+    background-color:  #f5f6f7;/*Color de fondo*/
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);/*Borde inferior*/
+    padding: 0 0 3.5em 0;    /*Espaciado de 3.5em*/
+    font-weight: 12;/*Anchura de la letra*/
+}
+
+#menu > ul > li {
+    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    margin-left: 0px;
+    margin: 0.5em 0 0 0;
+    font-size: 1.2em;/*Poner los elementos uno al lado del otro*/
+    letter-spacing: 0.05em;
+    border-top: solid 1px 
+    rgba(210, 215, 217, 0.75);
+    font-family: "Roboto Slab", serif;
+
+    list-style: none;
+    padding: 0.5em 0 0 0;
+}
+
+
+#menu ul li{
+    margin-left: -25px;
+}
+
+
+#menu ul{
+    user-select: none;
+
+    font-family: "Roboto Slab", serif;
+    font-weight: 2;
+    letter-spacing: 0.075em;
+    list-style: none;
+    text-transform: uppercase;
+
+
+}
+
+#menu li ul{
+    display: none;
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#negativo{
+    left: 370px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    margin-top: -30px;
+    
+}
+
+#lupa{
+    font-size: 100%/*Poner los elementos uno al lado del otro*/
+}
+
+#query{
+    width: 100%;/*Anchura del div query*/
+    height: 40px;/*Altura del div query*/
+}
+
+#buscador{
+    background-color: #eff1f2;/*Color de fondo*/
+    position: relative;
+    height: 80px;/*Altura del buscador*/
+    width: 90%;/*Anchura del buscador*/
+}
+
+#header{
+    border-bottom: solid 5px #f56a6a;
+    position: relative;
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    height: 100px;/*Altura del header con id header*/
+}
+
+#header .iconos {
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.menu i{
+    font-size: 25px;/*Poner los elementos uno al lado del otro*/
+}
+
+.menu{
+    top: 50px;
+    height: 5em;/*Altura del div con clase menu*/
+    left: 990px;
+    position: absolute;
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    
+    
+}
+
+#header .logo {
+    color: inherit;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.25em;/*Poner los elementos uno al lado del otro*/
+    margin: 0;
+    border-bottom: 0;
+    color: inherit;
+    margin-top: 70px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: inherit
+}
+
+#banner{
+    display: flex;/*Poner los elementos uno al lado del otro*/
+}
+
+.contenido{
+    width: 50%;/*Anchura del div con clase contenido*/
+    height: 180px;/*Altura del div contenido*/
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+h1{
+    color: #3d4449;
+}
+
+#strong{
+    color: black;
+}
+
+#contenido2 h1{
+    font-size: 65px;/*Poner los elementos uno al lado del otro*/
+}
+
+
+
+#parrafo1{
+    display: block;
+    margin-right: 60px;
+
+}
+
+
+#actions {
+
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 15px;
+    padding: 0 0 0 1em;
+    vertical-align: middle;
+
+}
+ 
+
+
+#boton{
+    background-color: transparent;/*Color de fondo*/
+    border-radius: 0.375em;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #f56a6a;
+    color: #f56a6a !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;/*Poner los elementos uno al lado del otro*/
+    font-weight: 700;
+    height: 3.5em;/*Altura del boton*/
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#imagen{
+    border-radius: 0.375em;
+    width: 50%;/*Anchura del div con id imagen*/
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url(../imagenes/imagen.jpg);
+    background-size: cover;
+    height: 350px;/*Altura del div con id imagen*/
+    margin-top: 70px;
+}
+
+#contenido2 h1{
+    margin: 0 0 0.5em 0;
+    line-height: 1.3;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+#subtitulo{
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;/*Poner los elementos uno al lado del otro*/
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    margin-top: -0.5em;
+    text-transform: uppercase;
+
+}
+
+
+#segundaseccion{
+    margin-top: 100px;
+    border-top: solid 2px rgba(210, 215, 217, 0.75);
+    padding: 4em 0 2em 0;
+    display: block;
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+
+}
+
+
+
+.subtitulo2{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    font-size: 1.75em;/*Poner los elementos uno al lado del otro*/
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+#megadiv{
+    margin: 0 0 5em 0;
+    width: 100%;/*Anchura del div con id emgadiv*/
+    height: 100%;/*Altura del div con id megadiv*/
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    flex-wrap: wrap;
+   
+      
+    
+}
+
+.subtitulo3{
+    color: #3d4449;/*Color de la letra*/
+    font-family: "Roboto Slab", serif;/*Tipo de fuente*/
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    margin-left: 12px;
+    
+}
+
+
+.article1{
+    display: flex;/*Poner elementos uno al lado del otro*/
+    width: 50%;/*Anchura del %*/
+    height: 50%;/*Altura del articulo con clase article1 */
+    
+
+     
+    
+    
+}
+
+.article2{
+        display: flex;/*Poner cada elemento al lado de otro*/
+        width: 49%;/*Ancho de 49%*/
+        height: 50%;/*Altura del articulo 2 con clase article2*/
+        margin-top: 50px;/*Margen superior*/
+        
+
+}
+
+
+#gema{
+    margin-top: 15px;/*Margen superior*/
+    color: #f56a6a;/*Color del icono*/
+    margin-left: 3px;/*Margen izquierdo*/
+    font-size: 50px;/*Tamaño de la fuente*/
+    transform: rotate(-45deg);/*Rotar 45 grados*/
+}
+
+
+.contenido2{
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    width: 50%;/*Anchura del div contenido2*/
+    height: 50%;/*Altura del div contenido2*/
+    display: block;
+    margin-left: 30px;
+}
+
+.parrafo3{
+    margin: 12px;
+}
+
+
+
+
+#cohete{
+    margin-top: 15px;/*Margen superior*/
+    color: #f56a6a;/*Color del icono*/
+    margin-left: 3px;/*Margen izquierdo*/
+    font-size: 50px;/*Tamaño de la fuente*/
+    transform: rotate(-45deg);/*Rotar 45 grados*/
+}
+
+.article{
+    border: 1px solid;
+}
+
+
+#paper{
+    margin-top: 15px;
+    color: #f56a6a;
+    margin-left: 3px;
+    font-size: 50px;/*Poner los elementos uno al lado del otro*/
+    transform: rotate(-45deg);
+}
+
+#wifi{
+    margin-top: 15px;
+    color: #f56a6a;
+    margin-left: 3px;
+    font-size: 50px;/*Poner los elementos uno al lado del otro*/
+    
+}
+
+#header3{
+    padding: 4em 0 2em 0;
+}
+
+
+
+#imagenes{
+    
+    height: 1250px;/*Altura del div imagenes*/
+    
+}
+
+
+.vertical{
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    height: 50%;/*Altura del div con clase vertical*/
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+
+
+.imagenes19{
+    margin-top: 15px;
+    width: 33%;/*Anchura del div con clase imagenes19*/
+    text-align: center;
+}
+
+.imagenes20{
+    width: 33%;/*Anchura del div con clase imagenes20*/
+    text-align: center;
+    border-left: 0.5px solid #eeeeee;
+    border-right: 0.5px solid #eeeeee;
+    margin-top: 15px;
+}
+
+.imagenes190{
+    border-radius: 15px;
+
+}
+
+.subtituloImagenes{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 20px;/*Poner los elementos uno al lado del otro*/
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.textoImagenes{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 17px;/*Poner los elementos uno al lado del otro*/
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.button{
+    background-color: transparent;/*Color de fondo*/
+    border-radius: 0.375em;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #f56a6a;
+    color: #f56a6a !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;/*Poner los elementos uno al lado del otro*/
+    font-weight: 700;
+    height: 3.5em;/*Altura del boton*/
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+.ul{
+    margin-left: -375px;/*Margen izquierdo*/
+}
+
+
+.button2{
+    background-color: transparent;/*Color de fondo*/
+    border-radius: 0.375em;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #f56a6a;
+    color: #f56a6a !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;/*Poner los elementos uno al lado del otro*/
+    font-weight: 700;
+    height: 3.5em;/*Altura del boton*/
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+.input{
+    border-radius: 0.375em;
+    border: solid 1px rgba(210, 215, 217, 0.75);
+    color: inherit;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    height: 30px;/*Altura del input con clase input*/
+    width: 100%;/*Anchura del input con clase input*/
+}
+
+.contenido07{
+    margin-top: 50px;/*Margen superior*/
+    background-color: #f5f6f7;;/*Color de fondo*/
+    font-size: 1em;/*Tamaño de la fuente*/
+
+    
+}
+
+
+.contenido07 h2{
+    font-size: 1.75em;/*Poner los elementos uno al lado del otro*/
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 25px;
+}
+
+
+.imagenes7{
+    margin-left: 25px;/*Margen izquierdo*/
+    border-radius: 25px;/*Redondear los bordes*/
+    margin-right: 25px;/*Margen derecho*/
+}
+
+
+
+
+#more2{
+    background-color: transparent;/*Color de fondo*/
+    border-radius: 0.375em;
+    border: 0;
+    color: #f56a6a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.75em;/*Poner los elementos uno al lado del otro*/
+    font-weight: 700;
+    height: 3.5em;/*Altura del boton con id more2*/
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-left: -15px;
+}
+
+
+.contenido08 h2{
+    font-size: 0.75em;/*Poner los elementos uno al lado del otro*/
+    border-bottom: solid 3px #f56a6a;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 25px;
+}
+
+.contenido08{
+    background-color: #F5F6F7;/*Color de fondo*/
+    height: 100vh;/*Altura del div con clase contenido08*/
+    margin-top: 50px;/*Margen superior*/
+    font-size: 25px;/*Tamaño de la letra*/
+}
+
+
+#parrafoget{
+    font-size: 18px;/*Tamaño de la letra*/
+    color: #7f888f;/*Color de la letra*/
+    margin-left: 25px;/*Margen izquierdo*/
+    margin-right: 30px;/*Margen de derecho*/
+}
+
+#ul.contacto {
+    list-style: none;/*Quitar estilo de las listas*/
+    padding: 0;/*Padding de 0*/
+}
+
+#correo{
+    color: #f56a6a;
+    display: flex;/*Poner los elementos uno al lado del otro*/
+    font-size: 1.5em;/*Poner los elementos uno al lado del otro*/
+    height: 1.125em;/*Altura del logo correo*/
+    left: 0;
+    line-height: 1.125em;
+    position: absolute;
+    text-align: center;
+    width: 1.5em;/*Anchura del icono correo*/
+    margin-left: 25px;
+    margin-top: 25px;
+  
+}
+
+.texto08{
+    font-size: 10px;/*Poner los elementos uno al lado del otro*/
+    list-style: none;/*Quitar estilo de las litas*/
+    color: #3d4449;/*Color de la letra*/
+    margin-left: 5px;/*Margen izquierdo*/
+}
+
+#telefono{
+    color: #f56a6a;
+    font-size: 1.5em;/*Poner los elementos uno al lado del otro*/
+    height: 1.125em;/*Altura del icono telefono*/
+    left: 0;
+    line-height: 1.125em;
+    position: absolute;
+    width: 6em;/*Anchura del icono telefono*/
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+#texto09{   
+    font-size: 15px;/*Tamaño de la fuente*/
+    list-style: none;/*Quitar estilo de la lista*/
+    color: #3d4449;/*Color de la letra*/
+    margin-left: 5px;/*Margen izquierdo*/
+
+}
+
+
+#home{
+    color: #f56a6a;
+    font-size: 1.5em;/*Poner los elementos uno al lado del otro*/
+    height: 1.125em;/*Altura del icono home*/
+    left: 0;
+    line-height: 1.125em;
+    position: absolute;
+    width: 6em;/*Anchura del icono home*/
+    margin-left: 25px;
+    margin-top: 150px;
+}
+
+#texto010{
+    font-size: 9px;/*Tamaño de la fuente*/
+    list-style: none;/*Quitar estilo de lista*/
+    color: #3d4449;/*Color de la letra*/
+    margin-left: 5px;/*Margen izquierdo
+}
+
+
+#footer{
+    margin-top: 250px;/*Margen superior*/
+}
+
+
+#parrafo15{
+    font-size: 15px;/*Tamaño de la letra*/
+    margin-left: 25px;/*Margin Izquierdo*/
+    margin-right: 25px;/*Margen derecho*/
+    
+}
+
+.giro{
+    transform: rotate(45deg);/*Rotar 45 grados el div giro*/
+    border: 1px solid;/*Borde de 1px solido*/
+    text-align: center;/*Alinear texto al centro*/
+    margin-left: 120px;/*Margen izquierdo de 120px*/
+    width: 90px;/*Anchura de 90px*/
+    height: 90px;/*Altura de 90px*/
+}
+
+
+.parrafos07{
+    margin-left: 25px; /*Margen izquierdo*/
+    font-size: 1.15em;/*Tamaño de la fuente*/
+    line-height: 25px;/*Espaciado*/
+}
+
+
+.parrafo8{
+    width: 70%;/*Anchura del div con clase parrafo8*/
+}
+
+
+#lista09{
+    list-style: none;/*Quitar estilo de la lista*/
+}
+
+
+.cositas{
+    line-height: 45px;
+}
